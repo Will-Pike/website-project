@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Website Project</title>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+            background-color: #1f2937;
+        }
+        #header{
+            background-color: #1f2937;
+        }
+        .headerSub{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            height: 48px;
+        }
+        .logo{
+            flex: 1;
+            color: #f9faf8;
+            font-size: 24px;
+        }
+        .nav{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .nav div{
+            flex: 1;
+            color: #e5e7eb;
+            font-size: 18px;
+            width: fit-content;
+        }
+        #hero{
+            background-color: #1f2937;
+            margin-left: 20%;
+        }
+        .heroSub{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 65%;
+            height: 300px;
+            gap: 30px;
+        }
+        .heroLeft{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 35%;
+            height: auto;
+            margin-left: 60px;
+        }
+        .heroLarge{
+            color: #f9faf8;
+            font-size: 48px;
+            font-weight: 900;
+            
+        }
+        .heroSmall{
+            color: #e5e7eb;
+            font-size: 18px;
+        }
+        .heroRight{
+            flex: 1;
+            width: 35%;
+            height: 75%;
+            text-align: center;
+            line-height: 225px;
+            background-color: #e5e7eb;
+        }
+        .button{
+            background-color: #3882f6;
+            color: #f9faf8;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 24px;
+            font-weight: 600;
+            width: 130px;
+            height: 35px;
+            line-height: 35px;
+            margin-top: 10px;
+        }
+        #images{
+            background-color: white;
+            height: 350px;
+        }
+        .imagesTitle{
+            color: #1f2937;
+            font-size: 36px;
+            font-weight: 900;
+            text-align: center;
+            height: 108px;
+            line-height: 108px;
+        }
+        .imagesContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin-left: 25%;
+            gap: 150px;
+        }
+        .imageBox{
+            flex: 1;
+            text-align: center;
+        }
+        .box{
+            height: 150px;
+            border: 3px solid #3882f6;
+            border-radius: 5px;
+        }
+        #quotation{
+            background-color: #e5e7eb;
+        }
+        #action{
+            background-color: white;
+        }
+        #footer{
+            background-color: #1f2937;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="headerSub">
+            <div class="logo">Header Logo</div>
+            <div class="nav">
+                <div>header link one</div>
+                <div>header link two</div>
+                <div>header link three</div>
+            </div>
+        </div>
+    </div>
+    <div id="hero">
+        <div class="heroSub">
+            <div class="heroLeft">
+                <div class="heroLarge">This website is awesome</div>
+                <div class="heroSmall">This website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast</div>
+                <div class="button">Sign Up</div>
+            </div>
+            <div class="heroRight">this is a placeholder for an image</div>
+        </div>
+    </div>
+    <div id="images">
+        <div class="imagesTitle">Some random information.</div>
+        <div class="imagesContainer">
+            <div class="imageBox">
+                <div class="box"></div>
+                <div class="boxText">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="imageBox">
+                <div class="box"></div>
+                <div class="boxText">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="imageBox">
+                <div class="box"></div>
+                <div class="boxText">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="imageBox">
+                <div class="box"></div>
+                <div class="boxText">this is some subtext under an illustration or image</div>
+            </div>
+        </div>
+    </div>
+    <div id="quotation">
+        <div class="quote">This is an inpiring quote, or a testimonial from a customer. Mayber it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+        <div class="attribution">-Thor, God of Thunder</div>
+    </div>
+    <div id="action">
+        <div class="actionBox">
+            <div class="actionCall">Call to action! It's time!</div>
+            <div class="actionSub">Sign up for our product by clicking on that button right over there!</div>
+            <div class="signup">Sign up</div>
+        </div>
+    </div>
+    <div id="footer">
+        Copyright @ The Odin Project 2022
+    </div>
+    
+</body>
+</html>
